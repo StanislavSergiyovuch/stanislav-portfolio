@@ -39,7 +39,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.1.3'
 require "rubygems"
 gem "autoprefixer-rails"
-require "autoprefixer-rails"
 gem 'jquery-rails'
 gem "font-awesome-rails"
 
