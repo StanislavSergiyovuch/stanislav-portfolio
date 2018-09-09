@@ -1,0 +1,43 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+<div class="container container-header">
+    <div class="row justify-content-between"> 
+    <div class="img-ruby"></div>    
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+              <%= link_to about_path , class: 'nav-link' do %>ABOUT
+                <i class="fa fa-user"></i>
+              <% end %>
+              </li>
+                <li class="nav-item">
+                  <%= link_to about_path , class: 'nav-link' do %>WORKS
+                  <i class="fa fa-code"></i>
+                  <% end %>
+                </li>
+                  <li class="nav-item">
+                    <%= link_to about_path , class: 'nav-link' do %>BLOG
+                    <i class="fa fa-comment"></i>
+                    <% end %>
+                  </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+</div>
+<div class="container container-center">
+    <div class="row justify-content-center">
+        <div class="col-12">
+          <h1 class="main-desc">BACK-END &</br> FRONT-END DEVELOPER</h1>
+          <h1 class="span">
+            <span
+               class="txt-rotate"
+               data-rotate='[ "Hello my name is Stanislav Im Rybu", "Hello my name is Stanislav Im Ruby on Rails Developer. Nice to meet YOU" ]'></span>
+          </h1>
+        </div>
+    </div>
+</div>
+<div class="btn-link">
+<%= link_to about_path , class: 'btn-work' do %>VIEW MY WORKS
+<% end %>
+</div>

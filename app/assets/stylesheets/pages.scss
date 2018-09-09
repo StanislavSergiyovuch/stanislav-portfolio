@@ -1,0 +1,117 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-image: image-url('BackgroundAbout.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	height: 100vh;
+}
+.img-ruby{
+	background: url('ruby-logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 150px;
+	width: 100px;
+	opacity: 0.4;
+	margin-top: 25px;
+	transition: 1s ease-in-out;
+}
+
+.img-ruby:hover{
+	transform: rotateY(360deg);
+	transition: 1s ease-in-out;
+}
+.container-header{
+	height: 25%;
+}
+
+.nav-item {
+	font-family: 'Raleway';
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-right: 50px;
+}
+
+.nav-link{
+	color:#fff;
+}
+
+.nav-item :hover{
+	color: #f47d42;
+}
+
+.nav-item i{
+	visibility: hidden;
+	transition: 0.5s ease-in-out;
+}
+
+.nav-item :hover i{
+	transition: 0.5s ease-in-out;
+	visibility: visible;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.span,.txt-rotate {
+  font-family: 'Raleway';
+  font-size: 1.5em;
+  color: #FFF;
+  font-weight: 100px;
+  margin: 1em 0;
+  text-align-last: center;
+}
+
+.container-center{
+	margin-top: 50px;
+	width: 75%;
+	text-align: center;
+	height: 50%;
+}
+
+.main-desc{
+ line-height: 2em;
+ text-align: center;
+ font-family: 'Raleway';
+ color: #FFF;
+ font-weight: bold;
+ font-size: 2.5em;
+}
+
+.btn-link{
+	text-decoration: none !important;
+	text-align: center;
+}
+
+.btn-link .btn-work{
+	font-family: 'Raleway';
+	color: #FFF;
+	text-align: center;
+	text-decoration: none !important;
+	background-color: #f47d42;
+	font-weight: bold;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+@media (max-width: 678px){
+
+	.main-desc{
+ line-height: 1.5em;
+ text-align: center;
+ font-family: 'Raleway';
+ color: #FFF;
+ font-weight: bold;
+ font-size: 2em;
+}	
+	.span, .txt-rotate{
+  font-family: 'Raleway';
+  font-size: 1.15em;
+  color: #FFF;
+  font-weight: 100px;
+  margin: 1em 0;
+  text-align-last: center;
+	}
+}
