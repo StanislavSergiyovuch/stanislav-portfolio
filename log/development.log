@@ -202,3 +202,53 @@ Processing by PagesController#about as HTML
 Completed 200 OK in 122ms (Views: 119.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-09-09 14:10:12 +0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 6774ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Autoprefixer doesn’t support Node v4.2.6. Update it.):
+     6:     <%= csp_meta_tag %>
+     7:         <meta charset="utf-8">
+     8:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__211664793__632834748'
+Started GET "/" for 127.0.0.1 at 2018-09-09 14:13:28 +0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6048ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Autoprefixer doesn’t support Node v4.2.6. Update it.):
+     6:     <%= csp_meta_tag %>
+     7:         <meta charset="utf-8">
+     8:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__211664793__647871748'
+Started GET "/" for 127.0.0.1 at 2018-09-09 14:13:58 +0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 696ms (Views: 670.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-09 14:22:50 +0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 5986ms (Views: 5980.3ms | ActiveRecord: 0.0ms)
+
+
