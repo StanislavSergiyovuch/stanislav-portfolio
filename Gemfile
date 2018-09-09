@@ -40,7 +40,7 @@ gem 'bootstrap', '~> 4.1.3'
 require "rubygems"
 gem "autoprefixer-rails"
 # include only localhost require "autoprefixer-rails" 
-require "autoprefixer-rails"
+#require "autoprefixer-rails"
 gem 'jquery-rails'
 gem "font-awesome-rails"
 
