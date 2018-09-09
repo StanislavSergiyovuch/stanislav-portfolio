@@ -1,0 +1,6 @@
+<% @blogs.each do |blog| %>
+	<p>Name: <%= blog.name %></p>
+	<p>Body: <%= blog.body %></p>
+<% end %>
+
+<%= link_to 'Create post about me', new_blog_path , class: 'btn btn-outline-secondary' %>

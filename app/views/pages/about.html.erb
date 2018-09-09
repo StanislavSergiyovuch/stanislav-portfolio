@@ -1,4 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+<div class="container-body-pages">
 <div class="container container-header">
     <div class="row justify-content-between"> 
     <div class="img-ruby"></div>    
@@ -16,7 +17,7 @@
                   <% end %>
                 </li>
                   <li class="nav-item">
-                    <%= link_to about_path , class: 'nav-link' do %>BLOG
+                    <%= link_to blogs_path , class: 'nav-link' do %>BLOG
                     <i class="fa fa-comment"></i>
                     <% end %>
                   </li>
@@ -40,4 +41,5 @@
 <div class="btn-link">
 <%= link_to about_path , class: 'btn-work' do %>VIEW MY WORKS
 <% end %>
+</div>
 </div>
